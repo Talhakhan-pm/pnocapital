@@ -22,7 +22,7 @@
 }
 
 .btn:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
@@ -46,6 +46,11 @@
 .btn-outline {
     background: transparent;
     border: 1px solid #fff;
+    margin: 20px 20px;
+}
+.btn-outline:hover{
+    background: #081049;
+    border-radius: 20px;
 }
 
 /* Flex items */
@@ -196,4 +201,55 @@
     text-align: center  ;
     width: 100%;
     /* padding-left: 30px; */
+}
+
+.holding-grid{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #05396c;
+    color: #fff;
+    /* padding-bottom: 20px; */
+    /* flex-wrap: wrap; */
+}
+
+.holding-grid img{
+    margin-top: 50px;
+    width: 70%;
+}
+
+.holding-grid .row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.holding-grid .row-1 .input-group{
+    flex-basis: 48%;
+}
+
+.holding-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #333;
+    padding:30px;
+}
+
+.holding-flex h1{
+    color: #558ed5;
+    padding: 20px 10px 0 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.holding-flex h2{
+    color: #333;
+    padding:5px 10px 0 10px;
+    font-weight: 700;
 }
